@@ -1,13 +1,18 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+
 public class TimerScript : MonoBehaviour
 {
     public TextMeshProUGUI timerText; // Reference to a TextMeshPro UI element
-    private float startTime = 6f; // Start from x seconds
+    private GameObject player; // Reference to the player object
+
+    public static float startTime = 6f; // Start from x seconds
     private float remainingTime;
     private bool isRunning = true;
     private bool hasTriggeredEvent = false; // Prevents multiple triggers when time reaches 0
+
+    private PlayerRespawn playerRespawn;
 
     void Start()
     {
@@ -17,6 +22,8 @@ public class TimerScript : MonoBehaviour
 
     void Update()
     {
+        GameObject player = GameObject.FindWithTag("Player");
+        playerRespawn = player.GetComponent<PlayerRespawn>();
         if (isRunning && remainingTime > 0)
         {
             remainingTime -= Time.deltaTime;
@@ -52,11 +59,30 @@ public class TimerScript : MonoBehaviour
     public void ResetTimer()
     {
         remainingTime = startTime;
-        hasTriggeredEvent = false; 
+        hasTriggeredEvent = false;
         UpdateTimerText();
     }
+
     void OnTimerEnd()
     {
-        Debug.Log("⏳ Timer ended! Insert your custom logic here.");
+        Debug.Log("⏳ Timer ended! Respawning player...");
+
+        if (playerRespawn != null)
+        {
+            playerRespawn.Respawn(); // Call Respawn instead of destroying
+        }
+        else
+        {
+            Debug.LogWarning("⚠️ PlayerRespawn component is missing on player!");
+        }
+
+        ResetTimer();
     }
+
+    public void AddTime(float extraTime)
+    {
+        startTime += extraTime;
+        UpdateTimerText();
+    }
+
 }
