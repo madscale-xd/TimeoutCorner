@@ -20,4 +20,12 @@ public class PlayerRespawn : MonoBehaviour
         transform.position = lastCheckpoint;
         Debug.Log("Player respawned at: " + lastCheckpoint);
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Danger"))
+        {
+            Respawn();
+        }
+    }
 }

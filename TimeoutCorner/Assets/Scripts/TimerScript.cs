@@ -7,12 +7,13 @@ public class TimerScript : MonoBehaviour
     public TextMeshProUGUI timerText; // Reference to a TextMeshPro UI element
     private GameObject player; // Reference to the player object
 
-    public static float startTime = 6f; // Start from x seconds
+    public static float startTime = 6f; // Start from 6 seconds for Level 1
     private float remainingTime;
     private bool isRunning = true;
     private bool hasTriggeredEvent = false; // Prevents multiple triggers when time reaches 0
 
     private PlayerRespawn playerRespawn;
+    private MovableObjectsReset movReset;
 
     void Start()
     {
@@ -24,6 +25,7 @@ public class TimerScript : MonoBehaviour
     {
         GameObject player = GameObject.FindWithTag("Player");
         playerRespawn = player.GetComponent<PlayerRespawn>();
+        movReset = player.GetComponent<MovableObjectsReset>();
         if (isRunning && remainingTime > 0)
         {
             remainingTime -= Time.deltaTime;
@@ -66,6 +68,7 @@ public class TimerScript : MonoBehaviour
     void OnTimerEnd()
     {
         Debug.Log("⏳ Timer ended! Respawning player...");
+        movReset.ResetMovableObjects();
 
         if (playerRespawn != null)
         {
