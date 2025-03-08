@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody rb;
     private bool isGrounded;
+    private Coroutine ungroundCoroutine; // Stores reference to lingering coroutine
 
     void Start()
     {
@@ -23,12 +25,12 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void FixedUpdate()
-{
-    if (!isGrounded) // Apply only when in the air
     {
-        rb.velocity += Vector3.down * extraGravity * Time.fixedDeltaTime;
+        if (!isGrounded) // Apply only when in the air
+        {
+            rb.velocity += Vector3.down * extraGravity * Time.fixedDeltaTime;
+        }
     }
-}
 
     void HandleMovement()
     {
@@ -49,20 +51,43 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    // ✅ Collision-based ground detection (for objects tagged "Ground")
+    // ✅ Collision-based ground detection (for objects tagged "Ground" or "MovingPlatform")
     private void OnCollisionStay(Collision collision)
     {
         if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("MovingPlatform"))
         {
             isGrounded = true;
+
+            // Stop any lingering coroutine (to prevent overriding)
+            if (ungroundCoroutine != null)
+            {
+                StopCoroutine(ungroundCoroutine);
+                ungroundCoroutine = null;
+            }
         }
     }
 
     private void OnCollisionExit(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("MovingPlatform"))
+        if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = false;
         }
+        else if (collision.gameObject.CompareTag("MovingPlatform"))
+        {
+            // Start lingering effect
+            if (ungroundCoroutine == null)
+            {
+                ungroundCoroutine = StartCoroutine(LingerGroundCheck());
+            }
+        }
+    }
+
+    // ⏳ Linger ground check for 0.5s before setting isGrounded to false
+    private IEnumerator LingerGroundCheck()
+    {
+        yield return new WaitForSeconds(0.5f);
+        isGrounded = false;
+        ungroundCoroutine = null;
     }
 }

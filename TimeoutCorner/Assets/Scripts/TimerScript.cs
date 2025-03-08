@@ -8,7 +8,7 @@ public class TimerScript : MonoBehaviour
     private GameObject player; // Reference to the player object
 
     public static float startTime = 11f; // Start from 6 seconds for Level 1, 11 for 2
-    private float remainingTime;
+    public float remainingTime;
     private bool isRunning = true;
     private bool hasTriggeredEvent = false; // Prevents multiple triggers when time reaches 0
 
@@ -65,6 +65,19 @@ public class TimerScript : MonoBehaviour
         remainingTime = startTime;
         hasTriggeredEvent = false;
         UpdateTimerText();
+        GameObject boatObject = GameObject.Find("Boat");
+            if (boatObject != null)
+            {
+                BoatScript boatScript = boatObject.GetComponent<BoatScript>();
+                if (boatScript != null)
+                {
+                    boatScript.OnTimerReset();
+                }
+            }
+            else
+            {
+                Debug.LogWarning("⚠️ Boat GameObject not found in the scene!");
+            }
     }
 
     void OnTimerEnd()
