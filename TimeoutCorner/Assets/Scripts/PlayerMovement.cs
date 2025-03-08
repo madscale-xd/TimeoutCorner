@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
     // ✅ Collision-based ground detection (for objects tagged "Ground")
     private void OnCollisionStay(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("MovingPlatform"))
         {
             isGrounded = true;
         }
@@ -60,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionExit(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("MovingPlatform"))
         {
             isGrounded = false;
         }

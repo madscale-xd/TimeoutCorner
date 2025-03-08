@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Movable
   - Danger
+  - MovingPlatform
   layers:
   - Default
   - TransparentFX
