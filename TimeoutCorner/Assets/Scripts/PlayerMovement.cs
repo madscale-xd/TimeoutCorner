@@ -10,17 +10,48 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody rb;
     private bool isGrounded;
+    private bool onBoat = false;
+    private bool movingSideways = false;
     private Coroutine ungroundCoroutine; // Stores reference to lingering coroutine
+    private float lastResetTime;
+    private TimerScript timerScript;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true; // Prevent Rigidbody from rotating
+        GameObject timerObject = GameObject.Find("TimerUI");
+        if (timerObject != null)
+        {
+            timerScript = timerObject.GetComponent<TimerScript>();
+            lastResetTime = Time.time; // Initialize reset time
+        }
     }
 
     void Update()
     {
-        HandleMovement();
+        float elapsedTime = Time.time - lastResetTime; 
+
+        if (onBoat)
+        {
+            if (elapsedTime >= 13f) 
+            {
+                if (!movingSideways) 
+                {
+                    movingSideways = true;
+                }
+                HandleMovementBoat();
+            }
+            else 
+            {
+                HandleMovement(); // Normal movement before 13s
+            }
+        }
+        else 
+        {
+            HandleMovement(); // Normal movement if not on the boat
+        }
+
         HandleJump();
     }
 
@@ -43,6 +74,39 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector3(moveVelocity.x, rb.velocity.y, moveVelocity.z);
     }
 
+    void HandleMovementBoat()
+    {
+        float x = Input.GetAxis("Horizontal"); // A & D
+        float z = Input.GetAxis("Vertical");   // W & S
+
+        Vector3 moveDirection = transform.right * x + transform.forward * z;
+        Vector3 moveVelocity = moveDirection.normalized * moveSpeed;
+
+        Rigidbody boatRb = null;
+        BoatScript boatScript = null; 
+        if (isGrounded)
+        {
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, Vector3.down, out hit, 1.5f))
+            {
+                boatRb = hit.collider.attachedRigidbody;
+                boatScript = boatRb != null ? boatRb.GetComponent<BoatScript>() : null;
+            }
+        }
+
+        Vector3 inheritedVelocity = Vector3.zero;
+        if (boatScript != null)
+        {
+            float elapsedTime = Time.time - lastResetTime;
+            if (elapsedTime >= 13f) 
+            {
+                inheritedVelocity = boatRb.velocity; 
+            }
+        }
+
+        rb.velocity = new Vector3(moveVelocity.x, rb.velocity.y, moveVelocity.z) + inheritedVelocity;
+    }
+
     void HandleJump()
     {
         if (isGrounded && Input.GetButtonDown("Jump"))
@@ -57,6 +121,11 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("MovingPlatform"))
         {
             isGrounded = true;
+
+            if (collision.gameObject.CompareTag("MovingPlatform"))
+            {
+                onBoat = true;
+            }
 
             // Stop any lingering coroutine (to prevent overriding)
             if (ungroundCoroutine != null)
@@ -75,6 +144,9 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("MovingPlatform"))
         {
+            onBoat = false;
+            movingSideways = false; // Ensure sideways movement is reset when leaving the boat
+
             // Start lingering effect
             if (ungroundCoroutine == null)
             {
@@ -89,5 +161,28 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         isGrounded = false;
         ungroundCoroutine = null;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Ground"))
+        {
+            isGrounded = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Ground"))
+        {
+            isGrounded = false;
+        }
+    }
+
+    public void OnTimerResetPlayer()
+    {
+        lastResetTime = Time.time;
+        movingSideways = false; // Reset movement state
+        onBoat = false; // Ensure player is not locked in boat mode after reset
     }
 }
