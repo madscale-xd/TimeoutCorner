@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private Coroutine ungroundCoroutine; // Stores reference to lingering coroutine
     private float lastResetTime;
     private TimerScript timerScript;
+    public Transform teleportTarget; // Assign this in the inspector
 
     void Start()
     {
@@ -168,6 +169,11 @@ public class PlayerMovement : MonoBehaviour
         if (other.CompareTag("Ground"))
         {
             isGrounded = true;
+        }
+
+        if (other.CompareTag("WardenCube") && teleportTarget != null)
+        {
+            transform.position = teleportTarget.position;
         }
     }
 

@@ -42,7 +42,7 @@ public class BoatScript : MonoBehaviour
             if (!movingSideways)
             {
                 movingSideways = true; // Switch to sideways movement only once
-                platformSpeed *= 4; // Double the speed
+                platformSpeed *= 5; // Double the speed
             }
 
             // Move left (positive X direction) after 13 seconds have passed since reset

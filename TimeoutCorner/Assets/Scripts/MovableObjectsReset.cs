@@ -5,6 +5,12 @@ public class MovableObjectsReset : MonoBehaviour
 {
     private Dictionary<GameObject, Vector3> initialPositions = new Dictionary<GameObject, Vector3>();
 
+    private TriggerActivator trigger;
+
+    void Start(){
+       trigger = GameObject.Find("DefenseTrigger").GetComponent<TriggerActivator>();
+    }
+
     void Update()
     {
         // Continuously track newly spawned "Movable" objects
@@ -21,6 +27,7 @@ public class MovableObjectsReset : MonoBehaviour
 
     public void ResetMovableObjects()
     {
+        trigger.StopMovement();
         foreach (var entry in initialPositions)
         {
             if (entry.Key != null) // Ensure object still exists
