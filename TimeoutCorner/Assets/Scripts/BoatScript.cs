@@ -72,7 +72,13 @@ public class BoatScript : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other){
-        if(other.CompareTag("WardenPrime")){
+        if(other.CompareTag("WardenPrime") && TimerScript.GetStartTime()>=22){
+            Destroy(gameObject);
+        }
+    }
+
+    void OnTriggerStay(Collider other){
+        if(other.CompareTag("WardenPrime") && TimerScript.GetStartTime()>=22){
             Destroy(gameObject);
         }
     }

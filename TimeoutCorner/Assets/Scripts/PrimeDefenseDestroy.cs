@@ -16,7 +16,16 @@ public class PrimeDefenseDestroy : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("MovingPlatform")) // Check name, NOT tag!
+        if (other.CompareTag("MovingPlatform") && TimerScript.GetStartTime()>=22) // Check name, NOT tag!
+        {
+            timerScript.DisableTimer();
+            Destroy(gameObject); // Instead of destroying, disable it
+        }
+    }
+
+    void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("MovingPlatform") && TimerScript.GetStartTime()>=22) // Check name, NOT tag!
         {
             timerScript.DisableTimer();
             Destroy(gameObject); // Instead of destroying, disable it

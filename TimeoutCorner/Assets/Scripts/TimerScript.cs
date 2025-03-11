@@ -9,7 +9,7 @@ public class TimerScript : MonoBehaviour
     public TextMeshProUGUI timerText; // Reference to a TextMeshPro UI element
     private GameObject player; // Reference to the player object
 
-    public static float startTime = 21f; // Start from 6 seconds for Level 1, 11 for 2, 13 for boat, 21 for Level 3
+    public static float startTime = 22f; // Start from 6 seconds for Level 1, 11 for 2, 13 for boat, 22 for Level 3
     public float remainingTime;
     private bool isRunning = true;
     private bool hasTriggeredEvent = false; // Prevents multiple triggers when time reaches 0
@@ -111,10 +111,13 @@ public class TimerScript : MonoBehaviour
         startTime += extraTime;
         UpdateTimerText();
     }
-
     public void DisableTimer()
     {
-        isRunning = false; // Stop the timer
+        isRunning = false;
         timerText.text = ""; // Clear the timer display
+    }
+    public static float GetStartTime()
+    {
+        return startTime;
     }
 }
