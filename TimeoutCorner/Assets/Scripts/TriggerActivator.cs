@@ -13,7 +13,7 @@ public class TriggerActivator : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && !isMoving) // Only activate if the player enters
+        if (other.CompareTag("MovingPlatform") && !isMoving) // Only activate if the player enters
         {
             moveCoroutine = StartCoroutine(MoveObject());
         }
