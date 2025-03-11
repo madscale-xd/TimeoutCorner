@@ -362,6 +362,7 @@
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/PlayerRespawn.cs"
 "Assets/Scripts/PressurePlate.cs"
+"Assets/Scripts/PrimeDefenseDestroy.cs"
 "Assets/Scripts/ResetWardens.cs"
 "Assets/Scripts/RotateObject.cs"
 "Assets/Scripts/TimerScript.cs"

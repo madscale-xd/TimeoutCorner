@@ -70,4 +70,10 @@ public class BoatScript : MonoBehaviour
             }
         }
     }
+
+    void OnTriggerEnter(Collider other){
+        if(other.CompareTag("WardenPrime")){
+            Destroy(gameObject);
+        }
+    }
 }

@@ -9,6 +9,7 @@ TagManager:
   - Danger
   - MovingPlatform
   - WardenCube
+  - WardenPrime
   layers:
   - Default
   - TransparentFX

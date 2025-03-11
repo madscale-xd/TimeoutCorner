@@ -1,13 +1,15 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class TimerScript : MonoBehaviour
 {
+    public GameObject targetObject; //destruction trigger
     public TextMeshProUGUI timerText; // Reference to a TextMeshPro UI element
     private GameObject player; // Reference to the player object
 
-    public static float startTime = 13f; // Start from 6 seconds for Level 1, 11 for 2, 13 for boat
+    public static float startTime = 21f; // Start from 6 seconds for Level 1, 11 for 2, 13 for boat, 21 for Level 3
     public float remainingTime;
     private bool isRunning = true;
     private bool hasTriggeredEvent = false; // Prevents multiple triggers when time reaches 0
@@ -110,4 +112,9 @@ public class TimerScript : MonoBehaviour
         UpdateTimerText();
     }
 
+    public void DisableTimer()
+    {
+        isRunning = false; // Stop the timer
+        timerText.text = ""; // Clear the timer display
+    }
 }

@@ -171,7 +171,7 @@ public class PlayerMovement : MonoBehaviour
             isGrounded = true;
         }
 
-        if (other.CompareTag("WardenCube") && teleportTarget != null)
+        if (other.CompareTag("WardenCube") || other.CompareTag("WardenPrime") && teleportTarget != null)
         {
             transform.position = teleportTarget.position;
         }
