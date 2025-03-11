@@ -12,11 +12,12 @@ public class FirstPersonLook : MonoBehaviour
 
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked; // Lock cursor to center
+        Cursor.lockState = CursorLockMode.Confined; // Unlock the cursor
     }
 
     void Update()
     {
+        Cursor.visible = false; // Lock cursor to center
         HandleMouseLook();
     }
 

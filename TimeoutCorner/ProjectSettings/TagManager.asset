@@ -10,6 +10,7 @@ TagManager:
   - MovingPlatform
   - WardenCube
   - WardenPrime
+  - Gear
   layers:
   - Default
   - TransparentFX
