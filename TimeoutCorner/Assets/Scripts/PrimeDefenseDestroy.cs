@@ -5,6 +5,7 @@ public class PrimeDefenseDestroy : MonoBehaviour
     private MeshRenderer meshRenderer;
     private Collider[] colliders;
     private TimerScript timerScript;
+    public AudioClip newMusic;
 
     void Start()
     {
@@ -19,6 +20,7 @@ public class PrimeDefenseDestroy : MonoBehaviour
         if (other.CompareTag("MovingPlatform") && TimerScript.GetStartTime()>=22) // Check name, NOT tag!
         {
             timerScript.DisableTimer();
+            BGMManager.Instance.PlayBGM(newMusic, 1.5f);
             Destroy(gameObject); // Instead of destroying, disable it
         }
     }
@@ -28,6 +30,7 @@ public class PrimeDefenseDestroy : MonoBehaviour
         if (other.CompareTag("MovingPlatform") && TimerScript.GetStartTime()>=22) // Check name, NOT tag!
         {
             timerScript.DisableTimer();
+            BGMManager.Instance.PlayBGM(newMusic, 1.0f);
             Destroy(gameObject); // Instead of destroying, disable it
         }
     }
