@@ -358,6 +358,7 @@
 "Assets/Scripts/FirstPlayerLook.cs"
 "Assets/Scripts/GearRotation.cs"
 "Assets/Scripts/Memory.cs"
+"Assets/Scripts/MemoryTextManager.cs"
 "Assets/Scripts/MovableObjectsReset.cs"
 "Assets/Scripts/MovingPlatformsReset.cs"
 "Assets/Scripts/ObjectLifter.cs"
