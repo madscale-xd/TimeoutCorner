@@ -7,6 +7,8 @@ public class ObjectLifter : MonoBehaviour
     public GearRotation gear; // Each wall has its own assigned gear
     public float liftSpeed = 0.1f; // Speed at which the object moves upward
     public float maxHeight = 5f; // Maximum height the object can reach
+    public float minHeight = 0f; // Minimum height the object can go down to
+    public float smoothFactor = 5f; // Controls smoothness of movement
 
     private Rigidbody rb;
     private float initialY; // Store the starting Y position
@@ -35,14 +37,14 @@ public class ObjectLifter : MonoBehaviour
             float totalRotation = gear.GetTotalRotation(); // ✅ Each wall gets its own gear's rotation
 
             // Calculate new height based on gear rotation
-            float newY = initialY + (totalRotation * liftSpeed);
+            float targetY = initialY + (totalRotation * liftSpeed);
 
-            // Clamp the height to not exceed maxHeight
-            newY = Mathf.Min(newY, initialY + maxHeight);
+            // Clamp the height between minHeight and maxHeight
+            targetY = Mathf.Clamp(targetY, initialY - minHeight, initialY + maxHeight);
 
-            // Apply movement using Rigidbody
-            Vector3 targetPosition = new Vector3(transform.position.x, newY, transform.position.z);
-            rb.MovePosition(targetPosition);
+            // Smoothly interpolate between current position and target position
+            Vector3 targetPosition = new Vector3(transform.position.x, targetY, transform.position.z);
+            rb.position = Vector3.Lerp(rb.position, targetPosition, Time.fixedDeltaTime * smoothFactor);
         }
     }
 }
