@@ -11,6 +11,8 @@ TagManager:
   - WardenCube
   - WardenPrime
   - Gear
+  - ClockhandMin
+  - ClockhandHour
   layers:
   - Default
   - TransparentFX
