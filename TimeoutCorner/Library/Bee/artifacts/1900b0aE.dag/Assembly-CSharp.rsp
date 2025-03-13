@@ -355,6 +355,7 @@
 "Assets/Scripts/BGMManager.cs"
 "Assets/Scripts/BoatScript.cs"
 "Assets/Scripts/CheckpointSystem.cs"
+"Assets/Scripts/ClockRotator.cs"
 "Assets/Scripts/DefenseDestroy.cs"
 "Assets/Scripts/FirstPlayerLook.cs"
 "Assets/Scripts/GearRotation.cs"
