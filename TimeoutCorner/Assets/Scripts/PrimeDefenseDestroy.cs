@@ -7,6 +7,7 @@ public class PrimeDefenseDestroy : MonoBehaviour
     private TimerScript timerScript;
     private SFXManager sfx;
     public AudioClip newMusic;
+    private bool hasPlayedSFX = false;
 
     void Start()
     {
@@ -27,11 +28,16 @@ public class PrimeDefenseDestroy : MonoBehaviour
             Destroy(gameObject); // Instead of destroying, disable it
         }
     }
-
     void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("MovingPlatform") && TimerScript.GetStartTime()>=22) // Check name, NOT tag!
+        if (other.CompareTag("MovingPlatform") && TimerScript.GetStartTime() >= 22)
         {
+            if (!hasPlayedSFX) // Check if SFX has not been played yet
+            {
+                sfx.PlaySFX(7);
+                hasPlayedSFX = true; // Mark as played to prevent repeats
+            }
+
             timerScript.DisableTimer();
             BGMManager.Instance.PlayBGM(newMusic, 1.0f);
             Destroy(gameObject); // Instead of destroying, disable it

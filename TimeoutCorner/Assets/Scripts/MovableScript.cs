@@ -103,4 +103,20 @@ public class MovableScript : MonoBehaviour
         audioSource.volume = volume; // Reset volume for next push
         fadeOutCoroutine = null; // Reset coroutine tracker
     }
+
+    public void OnTimerReset()
+    {
+        if (audioSource.isPlaying)
+        {
+            audioSource.Stop(); // Stop the movement sound immediately
+        }
+
+        if (fadeOutCoroutine != null)
+        {
+            StopCoroutine(fadeOutCoroutine); // Ensure no lingering fade-out coroutine is running
+            fadeOutCoroutine = null;
+        }
+
+        audioSource.volume = volume; // Reset volume for the next push
+    }
 }

@@ -9,7 +9,7 @@ public class TimerScript : MonoBehaviour
     public TextMeshProUGUI timerText; // Reference to a TextMeshPro UI element
     private GameObject player; // Reference to the player object
 
-    public static float startTime = 22f; // Start from 6 seconds for Level 1, 11 for 2, 13 for boat, 22 for Level 3
+    public static float startTime = 6f; // Start from 6 seconds for Level 1, 11 for 2, 13 for boat, 22 for Level 3
     public float remainingTime;
     private bool isRunning = true;
     private bool hasTriggeredEvent = false; // Prevents multiple triggers when time reaches 0
@@ -71,7 +71,12 @@ public class TimerScript : MonoBehaviour
 
     public void ResetTimer()
     {
-        sfxManager.PlaySFX(5);
+        MovableScript[] movableObjects = FindObjectsOfType<MovableScript>();
+        foreach (MovableScript obj in movableObjects)
+        {
+            obj.OnTimerReset();
+        }
+            sfxManager.PlaySFX(5);
         playerMove.OnTimerResetPlayer();
         resetWardens.ReactivateWarden();
         remainingTime = startTime;
