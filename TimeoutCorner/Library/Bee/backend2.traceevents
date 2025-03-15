@@ -1,249 +1,289 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1742038028405700, "dur":21276, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1742038028426982, "dur":68, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1742038028427077, "dur":313, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1742038028428003, "dur":102, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1742038028427403, "dur":2253, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1742038028429658, "dur":166886, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1742038028596545, "dur":68, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1742038028596613, "dur":118, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1742038028596731, "dur":138, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1742038028596961, "dur":978, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1742038028428039, "dur":1764, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1742038028429805, "dur":429, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1742038028430234, "dur":2624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1742038028432906, "dur":97, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1742038028479519, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1742038028480918, "dur":115624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1742038028428146, "dur":1706, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1742038028429855, "dur":237, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1742038028430092, "dur":2740, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1742038028432837, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1742038028440361, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1742038028441126, "dur":999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":2, "ts":1742038028442206, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":2, "ts":1742038028443581, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1742038028445039, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":2, "ts":1742038028446696, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1742038028448048, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1742038028449089, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1742038028450447, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1742038028452309, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1742038028455976, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1742038028454153, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1742038028456147, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1742038028458546, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1742038028460681, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1742038028462852, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":2, "ts":1742038028464509, "dur":13558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":2, "ts":1742038028478123, "dur":137, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1742038028478265, "dur":3568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/level1" }}
-,{ "pid":12345, "tid":2, "ts":1742038028481864, "dur":114732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1742038028428032, "dur":1718, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1742038028429752, "dur":544, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1742038028430296, "dur":2532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1742038028463300, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":3, "ts":1742038028464268, "dur":13871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":3, "ts":1742038028478164, "dur":132, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1742038028478299, "dur":2266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1742038028480599, "dur":115948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1742038028427746, "dur":1921, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1742038028429672, "dur":368, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1742038028430041, "dur":2827, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1742038028432869, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1742038028441104, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1742038028442140, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742038028443584, "dur":1639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742038028445248, "dur":1859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742038028448323, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1742038028447158, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742038028448451, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742038028449828, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742038028451325, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742038028453043, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742038028455165, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742038028457367, "dur":2427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742038028459823, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742038028462242, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1742038028464448, "dur":51471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1742038028515958, "dur":80594, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1742038028428242, "dur":1678, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1742038028429921, "dur":2930, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1742038028432870, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1742038028432855, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1742038028479869, "dur":3075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1742038028482983, "dur":113580, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1742038028427689, "dur":1974, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1742038028429665, "dur":3145, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1742038028441437, "dur":608, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":6, "ts":1742038028442048, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1742038028442182, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":6, "ts":1742038028442440, "dur":161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Github projects\\TimeoutCorner\\TimeoutCorner\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":6, "ts":1742038028442602, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Github projects\\TimeoutCorner\\TimeoutCorner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":6, "ts":1742038028442767, "dur":226, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Github projects\\TimeoutCorner\\TimeoutCorner\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1742038028442994, "dur":303, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Github projects\\TimeoutCorner\\TimeoutCorner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":6, "ts":1742038028443298, "dur":481, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Github projects\\TimeoutCorner\\TimeoutCorner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1742038028443781, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Github projects\\TimeoutCorner\\TimeoutCorner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":6, "ts":1742038028443875, "dur":328, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Github projects\\TimeoutCorner\\TimeoutCorner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":6, "ts":1742038028444250, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player61089080-inputdata.json" }}
-,{ "pid":12345, "tid":6, "ts":1742038028442047, "dur":2331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1742038028444753, "dur":149535, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1742038028595921, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1742038028595920, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1742038028595982, "dur":517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1742038028428275, "dur":1654, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1742038028429929, "dur":2911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1742038028432847, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1742038028432905, "dur":55, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1742038028455996, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1742038028457075, "dur":2078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1742038028459181, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1742038028461627, "dur":2975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1742038028478115, "dur":98, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1742038028464663, "dur":13575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":7, "ts":1742038028478354, "dur":8324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1742038028486700, "dur":109880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742038028427768, "dur":1906, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742038028429675, "dur":470, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742038028430145, "dur":2672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742038028432825, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":8, "ts":1742038028448288, "dur":80, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742038028448371, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":8, "ts":1742038028450312, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742038028451947, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742038028453876, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742038028456163, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742038028458582, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742038028460688, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1742038028472329, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1742038028462867, "dur":9547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":8, "ts":1742038028472469, "dur":13287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/resources.assets" }}
-,{ "pid":12345, "tid":8, "ts":1742038028485787, "dur":110771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1742038028427781, "dur":1897, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1742038028429680, "dur":374, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1742038028430055, "dur":2800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1742038028432856, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":9, "ts":1742038028434444, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":9, "ts":1742038028435779, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1742038028436756, "dur":745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":9, "ts":1742038028437863, "dur":2758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":9, "ts":1742038028440676, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":9, "ts":1742038028441876, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":9, "ts":1742038028443185, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":9, "ts":1742038028445033, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":9, "ts":1742038028446292, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":9, "ts":1742038028447604, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1742038028449122, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1742038028450469, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1742038028452517, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1742038028454617, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1742038028456274, "dur":2327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1742038028458637, "dur":2227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1742038028463406, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1742038028460895, "dur":2571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1742038028463531, "dur":69129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1742038028532677, "dur":63869, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1742038028427895, "dur":1788, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1742038028429685, "dur":394, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1742038028430080, "dur":2746, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1742038028432827, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":10, "ts":1742038028434040, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":10, "ts":1742038028435765, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":10, "ts":1742038028436786, "dur":5215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":10, "ts":1742038028442043, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":10, "ts":1742038028443351, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":10, "ts":1742038028444757, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":10, "ts":1742038028445727, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":10, "ts":1742038028447280, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1742038028448632, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1742038028449847, "dur":1608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1742038028451504, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1742038028453258, "dur":2323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1742038028455654, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1742038028457776, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1742038028459989, "dur":2478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1742038028462520, "dur":50278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":10, "ts":1742038028512833, "dur":83758, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742038028428011, "dur":1676, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742038028429690, "dur":395, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742038028430085, "dur":2773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1742038028448711, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1742038028449758, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742038028451233, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742038028452898, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742038028455020, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742038028457366, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742038028459704, "dur":2300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742038028462041, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1742038028463941, "dur":14853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":11, "ts":1742038028478844, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":11, "ts":1742038028481012, "dur":115541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1742038028428155, "dur":1705, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1742038028429861, "dur":2995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1742038028456009, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1742038028456907, "dur":1933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1742038028458873, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1742038028461150, "dur":11373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1742038028472583, "dur":6702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/level2" }}
-,{ "pid":12345, "tid":12, "ts":1742038028479323, "dur":3954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":12, "ts":1742038028483350, "dur":113211, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742038028428222, "dur":1648, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742038028429871, "dur":2986, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742038028432867, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":13, "ts":1742038028432858, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1742038028434262, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1742038028435760, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":13, "ts":1742038028436867, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner.exe" }}
-,{ "pid":12345, "tid":13, "ts":1742038028438314, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742038028440043, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742038028441915, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742038028443184, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742038028444647, "dur":892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742038028445601, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742038028447607, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742038028449098, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742038028450471, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742038028452137, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742038028454096, "dur":1696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742038028455828, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742038028458042, "dur":2199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742038028460285, "dur":2186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1742038028462506, "dur":2103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":13, "ts":1742038028485128, "dur":114, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1742038028464641, "dur":20730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":13, "ts":1742038028485414, "dur":111153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742038028428216, "dur":1649, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742038028429866, "dur":2959, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1742038028463364, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":14, "ts":1742038028465231, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":14, "ts":1742038028466435, "dur":26773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":14, "ts":1742038028493235, "dur":103313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1742038028428238, "dur":1636, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1742038028429874, "dur":2938, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1742038028433238, "dur":215, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":15, "ts":1742038028433622, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/app.info" }}
-,{ "pid":12345, "tid":15, "ts":1742038028435686, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":15, "ts":1742038028436746, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":15, "ts":1742038028438065, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":15, "ts":1742038028440619, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":15, "ts":1742038028441862, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":15, "ts":1742038028442912, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":15, "ts":1742038028444113, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":15, "ts":1742038028445251, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":15, "ts":1742038028446877, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":15, "ts":1742038028448046, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1742038028449601, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1742038028450784, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1742038028452954, "dur":2104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1742038028455104, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1742038028457318, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1742038028459549, "dur":3213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1742038028462819, "dur":35351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":15, "ts":1742038028498212, "dur":98366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1742038028428295, "dur":1639, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1742038028429934, "dur":2936, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1742038028432871, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":16, "ts":1742038028480228, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":16, "ts":1742038028481712, "dur":114850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1742038028599672, "dur":692, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1742046840180875, "dur":27900, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742046840208782, "dur":734, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742046840209548, "dur":309, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742046840210556, "dur":95, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1742046840209871, "dur":2045, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742046840211917, "dur":153758, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742046840365676, "dur":298, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742046840366157, "dur":1136, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1742046840210149, "dur":1876, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742046840212027, "dur":415, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742046840212442, "dur":2545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742046840214994, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1742046840215067, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742046840233819, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1742046840234947, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742046840235198, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742046840237455, "dur":368, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742046840237855, "dur":2030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742046840239980, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742046840242227, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742046840244508, "dur":2757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742046840247311, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742046840247456, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742046840250135, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1742046840250250, "dur":4437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1742046840254756, "dur":110901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742046840210124, "dur":1879, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742046840212016, "dur":367, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742046840212383, "dur":2667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742046840215100, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742046840233798, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1742046840234740, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742046840234835, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742046840236726, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742046840236824, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742046840239049, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1742046840239122, "dur":2175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742046840241425, "dur":2773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742046840244285, "dur":2273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742046840246621, "dur":2533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742046840249220, "dur":2546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1742046840251838, "dur":2574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":2, "ts":1742046840254467, "dur":111196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742046840210054, "dur":1870, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742046840211926, "dur":3043, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742046840224271, "dur":526, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":3, "ts":1742046840224808, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1742046840224905, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1742046840225186, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Github projects\\TimeoutCorner\\TimeoutCorner\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742046840225337, "dur":207, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Github projects\\TimeoutCorner\\TimeoutCorner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742046840225545, "dur":297, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Github projects\\TimeoutCorner\\TimeoutCorner\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742046840225843, "dur":322, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Github projects\\TimeoutCorner\\TimeoutCorner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742046840226166, "dur":523, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Github projects\\TimeoutCorner\\TimeoutCorner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742046840226690, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Github projects\\TimeoutCorner\\TimeoutCorner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742046840226746, "dur":305, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Github projects\\TimeoutCorner\\TimeoutCorner\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742046840227231, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TundraBackend.dll" }}
+,{ "pid":12345, "tid":3, "ts":1742046840224807, "dur":2565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1742046840227703, "dur":155, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1742046840228243, "dur":135122, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1742046840364989, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1742046840364988, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1742046840365071, "dur":546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1742046840210177, "dur":1854, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742046840212035, "dur":409, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742046840212444, "dur":2553, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742046840215002, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1742046840215069, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1742046840263975, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1742046840264746, "dur":100943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742046840210087, "dur":1861, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742046840211975, "dur":465, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742046840212440, "dur":2567, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742046840215013, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1742046840215188, "dur":54, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742046840224640, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1742046840225624, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742046840227341, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742046840228630, "dur":2255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742046840230971, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742046840232606, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742046840234500, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742046840234657, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742046840237033, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742046840237149, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742046840239454, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742046840239529, "dur":2114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742046840241663, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742046840241851, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742046840244336, "dur":2232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742046840246660, "dur":2611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742046840249323, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1742046840249458, "dur":2585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1742046840252097, "dur":4846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1742046840256967, "dur":108711, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742046840210119, "dur":1859, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742046840211980, "dur":465, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742046840212446, "dur":2532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742046840215913, "dur":1889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1742046840218206, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1742046840218972, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1742046840221783, "dur":109, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742046840220678, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner.exe" }}
+,{ "pid":12345, "tid":6, "ts":1742046840222216, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742046840224248, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742046840226659, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742046840226820, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742046840227809, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742046840227921, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742046840230490, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742046840231867, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742046840233490, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742046840235326, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742046840235654, "dur":2831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742046840238517, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742046840238651, "dur":2218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742046840240891, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742046840241015, "dur":2459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742046840243517, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742046840243635, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742046840245797, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742046840245892, "dur":2431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742046840248353, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742046840248614, "dur":2658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742046840251305, "dur":309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1742046840251633, "dur":4538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1742046840256233, "dur":109428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742046840210147, "dur":1873, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742046840212023, "dur":375, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742046840212399, "dur":2680, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742046840215118, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1742046840274373, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1742046840275271, "dur":90411, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742046840210236, "dur":1878, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742046840212115, "dur":2931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742046840215095, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1742046840243043, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1742046840244316, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742046840247130, "dur":2463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742046840249697, "dur":3338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1742046840253112, "dur":2637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1742046840255786, "dur":109888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742046840210196, "dur":1852, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742046840212056, "dur":347, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742046840212404, "dur":2658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742046840215093, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1742046840264347, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1742046840265092, "dur":100598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742046840210215, "dur":1887, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742046840212107, "dur":2868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742046840214977, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1742046840216491, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1742046840217845, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742046840218257, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1742046840219995, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1742046840220801, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1742046840220871, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742046840221859, "dur":1944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1742046840223933, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742046840225892, "dur":377, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742046840226329, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742046840227574, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742046840228826, "dur":2453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742046840231344, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742046840233047, "dur":2142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742046840235234, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742046840235399, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742046840237558, "dur":265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742046840237847, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742046840239524, "dur":1933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742046840241524, "dur":2451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742046840244059, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742046840244135, "dur":2154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742046840246333, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742046840246420, "dur":2583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742046840249086, "dur":2162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742046840251296, "dur":323, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1742046840251639, "dur":3846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1742046840255542, "dur":110125, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742046840210256, "dur":1864, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742046840212120, "dur":2894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742046840215018, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1742046840215081, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742046840242587, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1742046840243823, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742046840244072, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742046840246489, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1742046840246583, "dur":2399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742046840249093, "dur":2791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1742046840252144, "dur":3827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1742046840256680, "dur":109012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742046840210281, "dur":1844, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742046840212125, "dur":2919, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742046840215085, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1742046840251916, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1742046840253837, "dur":62177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/data.unity3d" }}
+,{ "pid":12345, "tid":12, "ts":1742046840316033, "dur":49632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742046840210304, "dur":1826, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742046840212130, "dur":2891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742046840215024, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1742046840215077, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742046840216524, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1742046840217888, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742046840218256, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1742046840219134, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742046840220491, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742046840220489, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742046840220711, "dur":5190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742046840225957, "dur":317, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742046840226333, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742046840227922, "dur":2665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742046840230668, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742046840232482, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742046840232577, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742046840233724, "dur":396, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742046840234137, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742046840235697, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742046840235825, "dur":2682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742046840238557, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742046840238649, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742046840240516, "dur":2273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742046840242822, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1742046840242976, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742046840245314, "dur":2719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742046840248141, "dur":3179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742046840251345, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742046840251344, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742046840251489, "dur":25692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1742046840277217, "dur":88459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742046840210325, "dur":1810, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742046840212135, "dur":2838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742046840214988, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1742046840214977, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1742046840215078, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742046840224926, "dur":1925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1742046840226943, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742046840228002, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742046840228086, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742046840229412, "dur":831, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742046840230259, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742046840231471, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742046840231574, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742046840233534, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742046840235683, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742046840235801, "dur":2406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742046840238266, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742046840238366, "dur":2113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742046840240506, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742046840240776, "dur":2624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742046840243423, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742046840243639, "dur":1591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742046840245308, "dur":2493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742046840250336, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742046840247884, "dur":2539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742046840250461, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1742046840250554, "dur":4036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1742046840254630, "dur":111063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742046840210343, "dur":1801, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742046840212145, "dur":2826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742046840215045, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742046840223781, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/app.info" }}
+,{ "pid":12345, "tid":15, "ts":1742046840224616, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742046840225593, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742046840226967, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742046840228301, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742046840230647, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742046840232146, "dur":1665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742046840233842, "dur":305, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742046840234163, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742046840235832, "dur":2155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742046840238109, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742046840240133, "dur":2348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742046840242505, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742046840242648, "dur":2355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742046840245090, "dur":2334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742046840247519, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742046840249772, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742046840249894, "dur":2896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1742046840252859, "dur":387, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1742046840253276, "dur":2966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/TimeoutCorner_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":15, "ts":1742046840256268, "dur":109391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742046840210367, "dur":1772, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742046840212140, "dur":2912, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742046840215052, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1742046840215110, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1742046840274559, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Justin/Downloads/TimeoutCorner/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1742046840275494, "dur":90178, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1742046840369227, "dur":827, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
