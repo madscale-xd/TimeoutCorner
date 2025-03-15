@@ -7,9 +7,15 @@ public class MemoryTextManager : MonoBehaviour
     public static MemoryTextManager Instance;
     private TextMeshProUGUI memorytxt;
     private Coroutine resetCoroutine; // Store the active coroutine
+    
+    private TimerScript timer;
+    private SFXManager sfx;
 
     void Awake()
     {
+        timer = GameObject.Find("TimerUI")?.GetComponent<TimerScript>();
+        sfx = timer.GetComponent<SFXManager>();
+
         if (Instance == null)
         {
             Instance = this;
@@ -23,6 +29,7 @@ public class MemoryTextManager : MonoBehaviour
 
     public void ResetTextAfterDelay(float delay)
     {
+        sfx.PlaySFX(3);
         // If a reset coroutine is already running, stop it
         if (resetCoroutine != null)
         {

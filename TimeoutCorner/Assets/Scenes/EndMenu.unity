@@ -234,6 +234,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &108254405
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -788,6 +792,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &274186896
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -947,6 +955,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &303708986
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1106,6 +1118,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &317529178
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1265,6 +1281,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &330588356
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1424,6 +1444,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &381035238
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1913,6 +1937,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &518377741
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2072,6 +2100,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &526618750
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2580,6 +2612,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &681456933
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2942,6 +2978,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &763228771
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3289,6 +3329,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &905845467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3448,6 +3492,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &913379507
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3607,6 +3655,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &923271560
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3966,6 +4018,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &1018800422
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4209,6 +4265,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &1029285482
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4268,6 +4328,7 @@ GameObject:
   - component: {fileID: 1212678926}
   - component: {fileID: 1212678925}
   - component: {fileID: 1212678924}
+  - component: {fileID: 1212678927}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4349,6 +4410,102 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 57.093, y: 0, z: 0}
+--- !u!82 &1212678927
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212678923}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 0af04c499277d08479af05430018f0b6, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1250159417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4460,6 +4617,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &1250159421
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4634,6 +4795,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &1265907784
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4793,6 +4958,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &1280898682
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5027,6 +5196,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &1374504634
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5186,6 +5359,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &1396255554
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10393,6 +10570,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &1609778161
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10552,6 +10733,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &1631914867
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10613,7 +10798,6 @@ GameObject:
   - component: {fileID: 1641327000}
   - component: {fileID: 1641326999}
   - component: {fileID: 1641326998}
-  - component: {fileID: 1641326997}
   m_Layer: 0
   m_Name: Clock1
   m_TagString: Gear
@@ -10638,20 +10822,6 @@ Transform:
   - {fileID: 2008649610}
   m_Father: {fileID: 129239744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!114 &1641326997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641326995}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5dc049f709013a40bfa9c5d87ac9410, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gear: {fileID: 0}
-  rotationMultiplier: 0.75
 --- !u!54 &1641326998
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10863,6 +11033,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &1644688610
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11022,6 +11196,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &1652092555
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11181,6 +11359,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &1657473700
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11340,6 +11522,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &1678795059
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11499,6 +11685,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &1750347834
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11748,6 +11938,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &1800001573
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11907,6 +12101,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &1844685387
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12334,6 +12532,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &1926113371
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12535,6 +12737,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &1965421108
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12596,7 +12802,6 @@ GameObject:
   - component: {fileID: 2008649614}
   - component: {fileID: 2008649613}
   - component: {fileID: 2008649612}
-  - component: {fileID: 2008649611}
   m_Layer: 0
   m_Name: Cylinder (1)
   m_TagString: Gear
@@ -12620,20 +12825,6 @@ Transform:
   - {fileID: 479150384}
   m_Father: {fileID: 1641326996}
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 90}
---- !u!114 &2008649611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2008649609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5dc049f709013a40bfa9c5d87ac9410, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gear: {fileID: 0}
-  rotationMultiplier: 0.75
 --- !u!54 &2008649612
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12950,6 +13141,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &2024914208
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13109,6 +13304,10 @@ MonoBehaviour:
   rotationSpeed: 50
   minRotationAngle: -180
   maxRotationAngle: 190
+  dragSound: {fileID: 0}
+  volume: 1
+  fadeOutDuration: 1
+  fadeOutDelay: 0.25
 --- !u!65 &2052985062
 BoxCollider:
   m_ObjectHideFlags: 0

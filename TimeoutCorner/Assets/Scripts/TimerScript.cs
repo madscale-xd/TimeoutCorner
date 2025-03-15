@@ -20,6 +20,8 @@ public class TimerScript : MonoBehaviour
     private MovingPlatformsReset movPReset;
     private ResetWardens resetWardens;
 
+    private SFXManager sfxManager;
+
     void Start()
     {
         remainingTime = startTime;
@@ -28,6 +30,7 @@ public class TimerScript : MonoBehaviour
 
     void Update()
     {
+        sfxManager = GetComponent<SFXManager>();
         GameObject player = GameObject.FindWithTag("Player");
         playerMove = player.GetComponent<PlayerMovement>();
         playerRespawn = player.GetComponent<PlayerRespawn>();
@@ -68,6 +71,7 @@ public class TimerScript : MonoBehaviour
 
     public void ResetTimer()
     {
+        sfxManager.PlaySFX(5);
         playerMove.OnTimerResetPlayer();
         resetWardens.ReactivateWarden();
         remainingTime = startTime;

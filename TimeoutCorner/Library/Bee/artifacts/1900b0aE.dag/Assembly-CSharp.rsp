@@ -367,6 +367,7 @@
 "Assets/Scripts/MemoryTextManager.cs"
 "Assets/Scripts/MinTrigger.cs"
 "Assets/Scripts/MovableObjectsReset.cs"
+"Assets/Scripts/MovableScript.cs"
 "Assets/Scripts/MovingPlatformsReset.cs"
 "Assets/Scripts/ObjectLifter.cs"
 "Assets/Scripts/ObjectRotator.cs"

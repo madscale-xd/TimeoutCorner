@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SFXManager : MonoBehaviour
 {
+    private List<AudioSource> allAudioSources = new List<AudioSource>();
     [SerializeField] private AudioClip[] audioClips;  // Array of audio clips
     [SerializeField] private float[] audioVolumes;    // Array of volumes for each clip (0.0 to 1.0)
 
@@ -112,6 +113,22 @@ public class SFXManager : MonoBehaviour
         else
         {
             Debug.LogWarning("No looping SFX found at index " + index);
+        }
+    }
+
+    public void MuteAllSFX()
+    {
+        foreach (var source in loopingSources.Values)
+        {
+            source.mute = true;  // Mute all looping SFX
+        }
+    }
+
+    public void UnmuteAllSFX()
+    {
+        foreach (var source in loopingSources.Values)
+        {
+            source.mute = false;  // Unmute all looping SFX
         }
     }
 }
